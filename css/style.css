@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:600|Roboto');
+*{
+  margine: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  border: .1px solid #000000;
+}
+a{
+  text-decoration: none;
+}
