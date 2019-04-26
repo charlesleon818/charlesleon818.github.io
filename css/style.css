@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:600|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway:600|Roboto:300');
 *{
   margine: 0;
   padding: 0;
@@ -9,6 +9,15 @@ body{
 h1{
   font-family: 'Raleway', sans-serif;
   color: #ffffff;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+}
+h3{
+  font-family: 'Raleway', sans-serif;
+}
+.title{
+  color: #000000;
 }
 div.sticky {
   position: -webkit-sticky;
@@ -21,4 +30,25 @@ div.sticky {
 }
 a{
   text-decoration: none;
+}
+.images{
+  position:relative;
+  left: 1%;
+  width: 96vw;
+  height: auto;
+  z-index: -99;
+}
+.dualimgl{
+  position: relative;
+  left: 1%;
+  width: 47vw;
+  height: auto;
+    z-index: -99;
+}
+.dualimgr{
+  position: relative;
+  left: 2%;
+  width: 47vw;
+  height: auto;
+    z-index: -99;
 }
