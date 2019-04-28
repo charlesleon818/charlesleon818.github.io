@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:600|Roboto:300');
 *{
-  margine: 0;
+  margin: 0;
   padding: 0;
 }
 body{
@@ -9,12 +9,21 @@ body{
 h1{
   font-family: 'Raleway', sans-serif;
   color: #ffffff;
+  position: relative;
+  left: 10px;
+  z-index: -10;
 }
 h2{
   font-family: 'Raleway', sans-serif;
+  position: relative;
+  left: 10px;
+  z-index: -10;
 }
 h3{
   font-family: 'Raleway', sans-serif;
+  position: relative;
+  left: 10px;
+  z-index: -10;
 }
 .title{
   color: #000000;
@@ -23,13 +32,19 @@ div.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 100;
   margin: 0;
   padding: 0;
   background-color: #000000;
-  border: .1px solid #000000;
+  border: 10px solid #000000;
 }
 a{
   text-decoration: none;
+}
+.pictures{
+  position: relative;
+  left: 10px;
+  z-index: 0;
 }
 .images{
   position:relative;
@@ -58,4 +73,14 @@ a{
   width: 47vw;
   height: auto;
   z-index: -99;
+}
+.text{
+  position: relative;
+  margin: 10px;
+  left: 2px;
+  z-index: -10;
+}
+text{
+position: absolute;
+margin: 10px;
 }
