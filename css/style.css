@@ -40,6 +40,7 @@ div.sticky {
 }
 a{
   text-decoration: none;
+  color: #000000;
 }
 .pictures{
   position: relative;
@@ -75,12 +76,11 @@ a{
   z-index: -99;
 }
 .text{
-  position: relative;
-  margin: 10px;
-  left: 2px;
+  text-indent: 2em;
+  padding: 10px;
   z-index: -10;
 }
-text{
-position: absolute;
-margin: 10px;
+ul{
+  padding: 10px;
+  z-index: -10;
 }
