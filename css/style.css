@@ -84,3 +84,9 @@ ul{
   padding: 10px;
   z-index: -10;
 }
+#window{
+position: relative;
+left: 3%;
+border-color: #000000;
+border-width: thick;
+}
